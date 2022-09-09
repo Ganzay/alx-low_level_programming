@@ -2,6 +2,7 @@
 /**
  *
  * main - prints the size of various types
+ * Description: using the main function
  * Return: 0 if exited properly, non-zero otherwise
  */
 int main(void)
