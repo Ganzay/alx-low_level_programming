@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry
+ * main - Entry point
  *
  * Return: Always 0 (Seccess/correct)
  */
@@ -27,7 +27,7 @@ printf("%i is negative\n", n);
 
 else
 {
-printf("%i is positive\n", n)
+printf("%i is positive\n", n);
 }
 
 return (0);
