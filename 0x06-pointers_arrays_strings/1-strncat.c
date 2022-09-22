@@ -5,7 +5,7 @@
  * @dest: destination.
  * @src: source
  * @n: amount of bytes used from scr
- * Retur: the pointer to dest.
+ * Return: the pointer to dest.
  */
 char *_strcat(char *dest, char *src, int n)
 {
@@ -16,14 +16,14 @@ char *_strcat(char *dest, char *src, int n)
 		count++;
 	}
 
-
 	while (count2 < n)
 	{
 		*(dest + count) = *(src + count2);
-		if (*(src + count2) == '\0')
+		if (*(src + count2 == '\0')
 			break;
 		count++;
 		count2++;
 	}
-	return (dest);
+	return (dest)
 }
+
