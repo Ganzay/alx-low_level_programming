@@ -6,6 +6,7 @@
  *
  * Return: capitalization version of the string.
  */
+
 char *cap_string(char *x)
 {
 	char spc[] = {32, 9, '\', ',', ';', ',', '!', '?', '"', '(', ')', '{', '}'};
